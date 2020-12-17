@@ -264,7 +264,7 @@
         padding: 15px 30px;
     }
 
-    .header__contacts, .content__second, .content__text {
+    .header__contacts, .content__second, .content__help2, .content__text {
         display: none;
     }
 
