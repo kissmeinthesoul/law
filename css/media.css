@@ -1,0 +1,547 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header__contacts {
+        grid-template-columns: 1fr;
+        border: none;
+        margin-bottom: 0;
+    }
+
+    .contacts__social {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin: 20px auto;
+    }
+
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .search-bar, .topmenu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .contact__block p, .contact__block a {
+        font-size: 14px;
+    }
+
+    .header__content {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .about > .container {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+    .about p {
+        font-size: 24px;
+        line-height: 1.5em;
+    }
+
+    .about__mission {
+        text-align: center;
+        margin-top: 5%;
+        background: #f9f9f9;
+        box-shadow: none;
+    }
+
+    .about__company {
+        text-align: center;
+        background: #CFDCEF;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        padding: 10% 10% 15% 10%;
+        width: 100%;
+    }
+
+    .about > .about__company p {
+        margin: 0;
+    }
+    
+    .about {
+        padding: 0;
+    }
+
+
+
+
+
+    .footer p, .footer a {
+        font-size: 12px;
+    }
+
+    .footer__block__social {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 10% 0;
+    }
+
+    .content__second {
+        display: none;
+    }
+
+    .content__help2 {
+        display: block;
+        width: 60%;
+        margin: 0 auto
+    }
+
+    .content__text {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .clients__block img {
+        width: 100px;
+    }
+
+    .clients__block__sub p {
+        font-size: 18px;
+    }
+
+    .services__block img {
+        width: 45px;
+    }
+
+    .services__block {
+        height: 150px;
+    }
+
+    .services__block p {
+        font-size: 18px;
+    }
+
+    .law__more {
+        font-size: 18px;
+    }
+
+    .law-title {
+        font-size: 14px;
+    }
+    
+    .law__faces img {
+        width: 100px;
+    }
+
+    .law__faces p {
+        font-size: 18px;
+    }
+
+    .block__inside {
+        padding: 0 3%;
+    }
+
+    .block__inside p {
+        font-size: 18px;
+    }
+
+    .block__inside p:first-child {
+        display: none;
+    }
+
+
+
+    
+    .content__lowbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 18px 28px;
+    }
+
+    .advantages__block {
+        margin: 0;
+        text-align: left;
+    }
+
+    .header {
+        padding-bottom: 3%;
+    }
+
+    .content__advantages {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 5% 0 0 0;
+    }
+
+    .consultation__block {
+        grid-gap: 50px
+    }
+    
+    .consultation > .container {
+        padding: 5% 10%;
+        width: 100%;
+    }
+
+    .consultation__block p {
+        font-size: 18px;
+    }
+
+    .advantages__block p:last-child {
+        font-size: 18px;
+    }
+
+    .contacts_sec__cbox {
+        width: 50%;
+        padding: 7% 5%;
+    }
+
+    .cbox__block p {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+
+    section {
+        padding: 30px 0; 
+    }
+
+    .header {
+        padding: 20px 0 0 0;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 25%;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 15px 30px;
+    }
+
+    .header__contacts, .content__second, .content__text {
+        display: none;
+    }
+
+    .content__lowbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages__block {
+        margin: 0;
+    }
+
+    .content__advantages {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 30% 0 5% 0;
+    }
+
+    .advantages__block p:first-child {
+        font-size: 14px;
+    }
+
+    .advantages__block p:last-child {
+        font-size: 12px;
+    }
+
+    .content__help {
+        display: block;
+        text-align: center;
+        font-size: 13px!important;
+        margin: 4% auto 7% auto;
+        width: 70%;
+    }
+
+
+
+
+
+
+
+    .about > .container {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+    .about p {
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+
+    .about__mission {
+        text-align: center;
+        margin-top: 5%;
+        background: #f9f9f9;
+        box-shadow: none;
+    }
+
+    .about__company {
+        text-align: center;
+        background: #CFDCEF;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        padding: 10% 10% 15% 10%;
+        width: 100%;
+    }
+
+    .about > .about__company p {
+        margin: 0;
+    }
+    
+    .about {
+        padding: 0;
+    }
+
+
+
+
+
+
+    .consultation > .container {
+        width: 100%;
+        text-align: center;
+        padding: 8% 0;
+    }
+
+    .consultation h2 {
+        margin-bottom: 3%;
+    }
+
+    .consultation__block {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .consultation__block p {
+        font-size: 14px;
+        margin-bottom: 10%;
+    }
+
+    .consultation__block input {
+        font-size: 14px;
+    }
+
+
+
+
+
+    .clients > .container {
+        text-align: center;
+    }
+
+    .clients__block {
+        display: block;
+        margin-bottom: 15%;
+    }
+
+    .clients__block:last-child {
+        margin: 0;
+    }
+
+    .clients__block p, .clients__block a {
+        font-size: 12px;
+    }
+
+    .clients__block img {
+        margin: 0 0 5% 0;
+        width: 70px;
+    }
+
+    .clients h2 {
+        margin-bottom: 10%
+    }
+
+    .clients__block__sub p {
+        display: block;
+    }
+
+    .clients__block__sub a {
+        margin: 0;
+    }
+
+
+
+
+
+
+
+    .services {
+        grid-template-columns: 1fr;
+        margin-top: 7%;
+    }
+
+    .services p {
+        font-size: 18px;
+    }
+
+    .services > a {
+        height: 160px;
+        width: 70%;
+        margin: 0 auto;
+
+    }
+
+    .services__block {
+        height: 100%;
+        width: 100%;
+    }
+
+
+
+
+
+    .law-title {
+        font-size: 12px;
+    }
+
+    .law__faces {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px
+    }
+
+    .law__faces img {
+        width: 100px;
+    }
+
+    .law__faces p, .law__more {
+        font-size: 14px;
+    }
+
+    .last_consultations {
+        display: block;
+        margin-top: 7%;
+    }
+
+    .last_consultations__block {
+        margin: 20px 0;
+    }
+
+    .block__inside p:first-child {
+        display: none;
+    }
+
+    .block__inside{ 
+        width: 70%;
+        height: 30%;
+    }
+
+    .block__inside.left, .block__inside.right {
+        top: 0;
+        left: 0;
+    }
+
+    .block__inside p {
+        font-size: 14px;
+    }
+
+
+
+    .contacts_sec__cbox {
+        margin: 30px auto;
+        width: 80%;
+        padding: 30px 35px;
+    }
+
+    .cbox__block p {
+        font-size: 18px;
+        line-height: 1.4em;
+    }
+
+    .cbox__block {
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    .footer, .footer__block:last-child {
+        text-align: center;
+    }
+
+    .footer p, .footer a {
+        font-size: 12px;
+    }
+
+    .footer > .container{
+        grid-template-columns: 1fr;
+    }
+
+    .footer__block:last-child {
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .footer__block:first-child {
+        grid-row-start: 3;
+    }
+
+    .footer__block {
+        width: 60%!important;
+        margin: 0 auto;
+    }
+
+    .footer__block__social {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 10% 0;
+    }
+
+    .footer__block.center {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+}

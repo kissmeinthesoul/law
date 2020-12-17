@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__contacts">
+                <div class="contacts__contact">
+                    <div class="contact__block">
+                        <img src="img/email.svg" alt="email">
+                        <a href="">advokat.o@bk.ru</a>
+                    </div>
+                    <div class="contact__block">
+                        <img src="img/phone.svg" alt="phone">
+                        <a href="">+ 7 923 248 24 09</a>
+                    </div>
+                    <div class="contact__block">
+                        <img src="img/location.svg" alt="location">
+                        <p>Г. Новосибирск. Пр. Дзержинского 10</p>
+                    </div>
+                </div>
+                <div class="contacts__social">
+                    <a href="#" class="social__block">
+                        <img src="img/whatsapp.svg" alt="whatsapp">
+                    </a>
+                    <a href="#" class="social__block">
+                        <img src="img/telegram.svg" alt="telegram">
+                    </a>
+                    <a href="#" class="social__block">
+                        <img src="img/viber.svg" alt="viber">
+                    </a>
+                    <a href="#" class="social__block">
+                        <img src="img/imo.svg" alt="imo">
+                    </a>
+                </div>
+            </div>
+            <nav class="topbar" id="topbar">
+                <a href=""><img src="img/logo.svg" alt="logo"></a>
+                <a onclick="toggle()" class="burger"><img src="img/burger.svg" alt="menu"></a>
+                <div class="search-bar">
+                    <img src="img/loupe.svg" alt="loupe">
+                    <input type="text" class="search" id="search">
+                </div>
+                <ul class="topmenu">
+                    <li><a href="">О компании</a></li>
+                    <li><a href="">Услуги</a></li>
+                    <li><a href="">Акции</a></li>
+                    <li><a href="">Консультации</a></li>
+                    <li><a href="">Прайс-лист</a></li>
+                    <li><a href="">Отзывы</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+                
+            </nav>
+            <div class="header__content">
+                <p class="content__second">Федеральное юридическое агенство </p>
+                <p class="content__second">Юридическая помощь в Новосибирске</p>
+                <p class="content__help2">Оказание юридической помощи в городах: Кемерово, Новосибирск, Омск</p>
+                <h1>ЮРИСКОНСУЛЬТ - НСК</h1>
+                <p class="content__help">Оказание юридической помощи в городах: Кемерово, Новосибирск, Омск</p>
+                <p class="content__text">Добрый день, дорогие посетители сайта! <br>
+                    По моему личному мнению, нельзя оставаться один на один со своей проблемой. Профессиональная и своевременная помощь опытного юриста поможет Вам решить  даже самый сложный вопрос. Мы занимаемся решением юридических вопросов достаточно продолжительное время и можем своевременно, после изучения ситуации предложить варианты её разрешения. 
+                    В каждом индивидуальном случае, кроме меня к решению Вашего вопроса подключается юрист имеющий профильную специализацию (юрист - международник, автоюрист, юрист по наследству, недвижимости, адвокат и др.)
+                    Что касается стоимости наших услуг, то она может Вас приятно удивить и будет в итоге меньше Вашей выгоды, которую в итоге получите. Все первичные юридические консультации я стараюсь проводить лично и бесплатно.
+                    <br>  С глубоким Уважением!  <br>
+                    Олег Л. Ваш юрист в Новосибирске.
+                </p>
+                <div class="content__lowbar">
+                    <a href="#" class="btn">Заказать консультацию</a>
+                    <div class="content__advantages">
+                        <div class="advantages__block">
+                            <p>01</p>
+                            <p>Удобно</p>
+                        </div>
+                        <div class="advantages__block">
+                            <p>02</p>
+                            <p>Доступно</p>
+                        </div>
+                        <div class="advantages__block">
+                            <p>03</p>
+                            <p>Конфиденциально</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="burger-tab" id="burger">
+        <a onclick="toggle()"><img src="img/close.svg" alt="close" class="burger-close"></a>
+        <div class="burger-tab__block">
+            <a href="#about">О компании</a>
+            <a href="#services-sec">Услуги</a>
+            <a href="#">Акции</a>
+            <a href="#last_consultations-sec">Консультации</a>
+            <a href="">Прайс-лист</a>
+            <a href="">Контакты</a>
+            <a href="">Отзывы</a>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__company">
+                <h2>О компании</h2>
+                <p>Уважаемые посетители, мы оказываем юридическую помощь гражданам и организациям, предоставляя широкий спектр юридических услуг. По всем возникающим вопросам, в том числе по работе сайта вы можете в любое время обращаться</p>
+                <p class="company__phone">+7(923)248-24-09</p>
+                <a href="" class="btn accent">Заказать звонок</a>
+            </div> 
+
+            <div class="about__mission">
+                <h2>Наша миссия</h2>
+                <p>юридическая защита интересов наших клиентов в области уголовного, административного, гражданского права и его отраслях. Мы готовы защищать Ваши интересы как в досудебном порядке, путем переговоров, направлении претензий, жалоб, заявлений, так и в суде</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="consultation">
+        <div class="container">
+            <h2>Бесплатная консультация</h2>
+            <div class="consultation__block">
+                <p>Мы всегда идем навстречу нашим клиентам, поэтому в офисе мы проводим для Вас бесплатные юридические консультации.</p>
+                <form action="" method="post">
+                    <input type="text" name="name" placeholder="Введите имя" required>
+                    <input type="text" name="phone" placeholder="Введите телефон" required>
+                    <div class="content__btn">
+                        <button href="#" class="btn">Оставить заявку</button>
+                        <div class="btn-line"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="clients">
+        <div class="container">
+            <h2>Почему клиенты обращаются к нам:</h2>
+            <div class="clients__block">
+                <img src="img/crown.svg" alt="crown">
+                <div class="clients__block__sub">
+                    <h3>Все включено</h3>
+                    <p>При заключении соглашения о предоставлении интересов в суде, сопутствующие услуги (заявления, ходатайства, консультации) включены.</p>
+                </div>
+            </div>
+            <div class="clients__block">
+                <img src="img/file.svg" alt="file">
+                <div class="clients__block__sub">
+                    <h3>Договор</h3>
+                    <p>Предоставляются документы на оплату услуг (договор, квитанция).</p>
+                </div>
+            </div>
+            <div class="clients__block">
+                <img src="img/discount.svg" alt="discount">
+                <div class="clients__block__sub">
+                    <h3>Акции</h3>
+                    <p>На наши услуги часто действуют акции, а так же нашим клиентам доступны спецпредложения.</p>
+                    <a href="">Перейти к акциям</a>
+                </div>
+            </div>
+            <div class="clients__block">
+                <img src="img/save-money.svg" alt="save-money">
+                <div class="clients__block__sub">
+                    <h3>Возврат денег</h3>
+                    <p>Имеется возможность взыскания судебных издержек в рамках нашего договора (наши клиенты, полностью или частично вернули назад оплаченные нам деньги за счет ответчика).</p>
+                </div>
+            </div>
+            <div class="clients__block">
+                <img src="img/like.svg" alt="feedback">
+                <div class="clients__block__sub">
+                    <h3>Отличные отзывы</h3>
+                    <p>Положительная судебная практика и репутация, подтвержденная нашими клиентами.</p>
+                    <a href="">Перейти к отзывам</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-sec">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services">
+                <a href=""><div class="services__block">
+                    <img src="img/files.svg" alt="files">
+                    <p>Юрист <br>
+                        по наследству</p>
+                </div></a>
+                <a href=""><div class="services__block">
+                    <img src="img/house.svg" alt="house">
+                    <p>Юрист <br>
+                        по недвижимости</p>
+                        
+                </div></a>
+                <a href=""><div class="services__block">
+                    <img src="img/airplane.svg" alt="airplane">
+                    <p>Юрист <br>
+                        по миграции</p>
+                </div></a>
+                <a href=""><div class="services__block">
+                    <img src="img/family.svg" alt="family">
+                    <p>Юрист <br>
+                        по семейным делам</p>
+                </div></a>
+                <a href=""><div class="services__block">
+                    <img src="img/suitcase.svg" alt="suitcase">
+                    <p>Юрист <br>
+                        по трудовому праву</p>
+                </div></a>
+                <a href=""><div class="services__block">
+                    <img src="img/handcuffs.svg" alt="handcuffs">
+                    <p>Юрист <br>
+                        по уголовному праву</p>
+                </div></a>
+                <a href=""><div class="services__block">
+                    <img src="img/surface.svg" alt="car">
+                    <p>Автоюрист. <br>
+                        Споры <br>
+                        по автострахованию</p>
+                </div></a>
+                <a href=""><div class="services__block">
+                    <img src="img/brain.svg" alt="brain">
+                    <p>Возмещение морального вреда</p>
+                </div></a>
+                <a href=""><div class="services__block">
+                    <img src="img/recession.svg" alt="recession">
+                    <p>Банкротство. <br>
+                        Кредитные споры</p>
+                </div></a>
+                <a href=""><div class="services__block">
+                    <img src="img/law.svg" alt="law">
+                    <p>Юрист <br>
+                        по исполнительному проиводству</p>
+                </div></a>
+                <a href=""><div class="services__block">
+                    <img src="img/real-estate.svg" alt="real-estate">
+                    <p>Защита прав дольщиков</p>
+                </div></a>
+                <a href=""><div class="services__block">
+                    <img src="img/balance.svg" alt="balance">
+                    <p>Арбитражные споры</p>
+                </div></a>
+                <a href=""><div class="services__block">
+                    <img src="img/flag.svg" alt="flag">
+                    <p>Юрист <br>
+                        по административным делам</p>
+                </div></a>
+                <a href=""><div class="services__block">
+                    <img src="img/policeman.svg" alt="policeman">
+                    <p>Юридическая 
+                        помощь сотрудникам ОВД</p>
+                </div></a>
+                <a href=""><div class="services__block">
+                    <img src="img/civil-right-movement.svg" alt="civil-right-movement">
+                    <p>Юрист <br>
+                        по гражданскому 
+                        праву</p>
+                </div></a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="law">
+        <div class="container">
+            <h2>Наши юристы</h2>
+            <div class="line-quotes">
+                <div class="line-q"></div>
+                <img src="img/quotesup.svg" alt="quotes">
+                <div class="line-q"></div>
+            </div>
+            <p class="law-title">Высококвалифицированные специалисты Юрисконсульт, это профессионалы своего дела, которые окажут вам юридическую и правовую помощь в любой ситуации</p>
+            <div class="line-quotes">
+                <div class="line-q"></div>
+                <img src="img/quotes.svg" alt="quotes">
+                <div class="line-q"></div>
+            </div>
+            <div class="law__faces">
+                <div class="faces__block">
+                    <img src="img/photo1.png" alt="photo">
+                    <p>Ирина Викторовна</p>
+                </div>
+                <div class="faces__block">
+                    <img src="img/photo2.png" alt="photo">
+                    <p>Денис Викторович</p>
+                </div>
+                <div class="faces__block">
+                    <img src="img/photo3.png" alt="photo">
+                    <p>Олег Светониевич</p>
+                </div>
+                <div class="faces__block">
+                    <img src="img/photo4.png" alt="photo">
+                    <p>Дарья Олеговна</p>
+                </div>
+            </div>
+            <a href="" class="law__more">Подробнее</a>
+        </div>
+    </section>
+
+    <section class="last_consultations-sec">
+        <div class="container">
+            <h2>Последние консультации</h2>
+            <div class="last_consultations">
+                <a href=""><div class="last_consultations__block">
+                    <img src="img/consultation1.jpg" alt="house">
+                    <div class="block__inside left">
+                        <p>Юрист по недвижимости</p>
+                        <p>Как подготовить договор купли продажи квартиры?</p>
+                    </div>
+                </div></a>
+                <a href=""><div class="last_consultations__block">
+                    <img src="img/consultation2.jpg" alt="car">
+                    <div class="block__inside right">
+                        <p>Автоюрист</p>
+                        <p>Как вернуть автомобиль?</p>
+                    </div>
+                </div></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="contacts_sec">
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contacts_sec__cbox">
+                <div class="cbox__block">
+                    <img src="img/white-phone.svg" alt="phone">
+                    <p>+7(923)248-24-09</p>
+                </div>
+                <div class="cbox__block">
+                    <img src="img/white-mail.svg" alt="email">
+                    <p>advokat.o@bk.ru</p>
+                </div>
+                <div class="cbox__block">
+                    <img src="img/white-location.svg" alt="location">
+                    <p>Г. Новосибирск. 
+                        пр.Дзержинского 10</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__block">
+                <a href="" class="footer__block__feed">Отзывы</a>
+                <p>Юрисконсульт-НСК  <br>
+                    Все права защищены
+                </p>
+            </div>
+            <div class="footer__block center">
+                <p>Мы в соцсетях</p>
+                <div class="footer__block__social">
+                    <a href=""><img src="img/black-instagram.svg" alt="instagram"></a>
+                    <a href=""><img src="img/black-ok.svg" alt="ok"></a>
+                    <a href=""><img src="img/black-vk.svg" alt="vk"></a>
+                    <a href=""><img src="img/black-wp.svg" alt="whatsapp"></a>
+                    <a href=""><img src="img/black-tg.svg" alt="telegram"></a>
+                    <a href=""><img src="img/black-viber.svg" alt="viber"></a>
+                </div>
+            </div>
+            <div class="footer__block">
+                <p>Контакты</p>
+                <p>Телефон: +7(923)248-24-09<br>
+                    Адрес: пр.Дзержинского 10<br>
+                    Почта: advokat.o@bk.ru
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
